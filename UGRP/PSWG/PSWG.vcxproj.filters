@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Graphics\API\glut.h">
+      <Filter>Graphics\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UserInput\GUIInput.h">
+      <Filter>Graphics\UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FrameGL.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Utility.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Wave.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Prelude.h" />
+    <ClInclude Include="Graphics\Window\Frame\Frame.h">
+      <Filter>Graphics\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UserInput\Mouse.h">
+      <Filter>Graphics\UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Draw\Camera\Camera.h">
+      <Filter>Graphics\Draw\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Draw\Camera\AdvancedCamera.h">
+      <Filter>Graphics\Draw\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Object.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Draw\Draw.h">
+      <Filter>Graphics\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Particle.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Object\Transition.h">
+      <Filter>Graphics\3d Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Tree.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ParticleManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\BindedList.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PMFunction.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PM function\PMForcefieldCube.h">
+      <Filter>Physics\PM Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PMEmitterCube.h">
+      <Filter>Physics\PM Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PMDrowerCube.h">
+      <Filter>Physics\PM Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{fca73c63-9aa5-4c32-a4b7-be90ee52d2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7a51b4f2-1b91-4e93-9244-553f13de65b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{a84e6e2b-adeb-4c68-b78e-5c41709e577e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{2e045556-2c7b-4108-90b9-8792f132f783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\API">
+      <UniqueIdentifier>{18194565-9e5a-4a53-941e-5f281e374231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw">
+      <UniqueIdentifier>{641083da-ced8-483e-a265-059a1b8b1d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\UserInput">
+      <UniqueIdentifier>{a9f2e8a1-eb3a-4785-8fad-d81195b39533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Window">
+      <UniqueIdentifier>{5fbc1d65-e8a5-43e5-95c5-d7c9011bc7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Camera">
+      <UniqueIdentifier>{395bcaaa-b674-4963-a0a0-cd7fad4f5bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\3d Object">
+      <UniqueIdentifier>{58d020c2-1518-43bb-b1d9-4faf446046eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\PM Controller">
+      <UniqueIdentifier>{f7a26067-32df-41c1-a2a1-f7c0a145e416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
